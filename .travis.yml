@@ -1,0 +1,12 @@
+language: java
+jdk:
+  - oraclejdk8
+before_install:
+before_script:
+script:
+  - mvn clean test  jacoco:restore-instrumented-classes  jacoco:report site
+
+notifications:
+  emails:
+  on_success: always
+  on_failure: always
