@@ -10,6 +10,7 @@
 * リポジトリをcloneし、mavenゴールを以下の通りにして実行してください
 * `clean test jacoco:restore-instrumented-classes jacoco:report site`
  * `target/site/jacoco/index.html` にカバレッジ結果が出力されます
+* Jenkinsなどでカバレッジ集計結果を見える化する場合は、`target/jacoco.exec`に集計結果が出ますので使って下さい
 
 ## 本家の情報など
 * https://github.com/powermock/powermock/wiki/Code-coverage-with-JaCoCo
