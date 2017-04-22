@@ -13,6 +13,5 @@
 
 ## 本家の情報など
 * https://github.com/powermock/powermock/wiki/Code-coverage-with-JaCoCo
-
  * powermockの本家リポジトリのwiki
  * on-the-fly instrument(クラスロード時にinstrumentする)は無理だが、offline instrument(コンパイル直後にinstrumentする)なら可能、という情報が載っています
